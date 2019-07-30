@@ -11,8 +11,7 @@ jQuery.entwine('ss', ($) => {
             onclick: function(e) {
                 this._super(e);
 
-                grid_field = this.getGridField();
-                grid_field.reload();
+                this.getGridField().reload();
             }
         });
     });
